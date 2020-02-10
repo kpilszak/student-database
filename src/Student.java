@@ -31,4 +31,21 @@ public class Student {
         id++;
         this.studentID = gradeYear + "" + id;
     }
+
+    public void enroll() {
+        do {
+            System.out.println("Enter course to enroll (Q to quit): ");
+            Scanner in = new Scanner(System.in);
+            String course = in.nextLine();
+            if (!course.equals("Q")) {
+                courses = courses + "\n" + course;
+                tuitionBalance = tuitionBalance + costOfCourse;
+            } else {
+                break;
+            }
+        } while (1 != 0);
+
+        System.out.println("ENROLLED IN: " + courses);
+        System.out.println("TUITION BALANCE: " + tuitionBalance);
+    }
 }
