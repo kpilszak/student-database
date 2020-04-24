@@ -23,4 +23,4 @@ Type `javac Application.java` and press enter to compile.
 Type `java Application` to run the application.  
 
 ## Sources
-This project was created as an exercise for course "Practice Java by Building Projects" by Tim Short.
+This project was created as an exercise from course "Practice Java by Building Projects" by Tim Short.
